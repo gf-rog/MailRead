@@ -1,0 +1,12 @@
+MailRead v1.0 by gf-rog
+Zbiór dwóch programów odczytujących wiadomość mailową od danego nauczyciela z dziennika GPE.
+
+1. WakeOnLAN
+Program wysyłający o danej godzinie pakiet Wake on LAN do konkretnego komputera.
+Przeznaczony on jest dla mikrokontrolera ESP32.
+Do otwarcia projektu wymagane jest VS Code z wtyczką PlatformIO.
+
+2. MailRead
+Skrypt uruchamiany jest po włączeniu komputera przez mikrokontroler.
+Komputer czeka na zadaną godzinę, a następnie loguje się do dziennika i odczytuje mail.
+Program wykorzystuje język programowania Python z dodatkiem Selenium.
